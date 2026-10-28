@@ -1,0 +1,28 @@
+{
+  "locale": "es-ES",
+  "texts": [
+    {
+      "node": "Page 1/Screen/Login/Title",
+      "value": "Bienvenido de nuevo a tu tienda"
+    },
+    {
+      "node": "Page 1/Screen/Login/Subtitle",
+      "value": ""
+    },
+    {
+      "id": 9,
+      "value": "Continuar"
+    }
+  ],
+  "images": [
+    {
+      "node": "Page 1/Screen/Login/Grid/Stats",
+      "path": "avatar.png",
+      "x": 0,
+      "y": 0,
+      "width": 103,
+      "height": 120,
+      "mode": "fill"
+    }
+  ]
+}

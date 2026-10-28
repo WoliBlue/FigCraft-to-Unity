@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>FigCraft.Features</AssemblyName>
+    <RootNamespace>FigCraft.Features</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Shared with the Unity package, which runs them inside the Editor: one copy of the code. -->
+    <Compile Include="../../unity/com.figcraft-to-unity.tool/Editor/Core/Cli.cs" Link="Core/Cli.cs" />
+    <Compile Include="../../unity/com.figcraft-to-unity.tool/Editor/Core/DocumentIndex.cs" Link="Core/DocumentIndex.cs" />
+    <Compile Include="../../unity/com.figcraft-to-unity.tool/Editor/Core/FigCraftClient.cs" Link="Core/FigCraftClient.cs" />
+  </ItemGroup>
+
+</Project>

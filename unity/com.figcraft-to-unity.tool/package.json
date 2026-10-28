@@ -1,0 +1,22 @@
+{
+  "name": "com.figcraft-to-unity.tool",
+  "version": "0.1.0-preview.1",
+  "displayName": "FigCraft to Unity Tool",
+  "description": "Capture your running game's uGUI screens into FigCraft as editable layers, and apply the design changes back to the game one by one. Unofficial; not affiliated with FigCraft, Unity Technologies or Figma.",
+  "unity": "6000.6",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "keywords": [
+    "figcraft",
+    "ui",
+    "ugui",
+    "design",
+    "textmeshpro"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Jose Arenas Venegas"
+  }
+}

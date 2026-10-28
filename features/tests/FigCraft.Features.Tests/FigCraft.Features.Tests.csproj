@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>figcraft-unity-features-tests</AssemblyName>
+    <RootNamespace>FigCraft.Features.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\FigCraft.Features.csproj" />
+    <ProjectReference Include="..\..\Annotate\FigCraft.Features.Annotate.csproj" />
+    <ProjectReference Include="..\..\Library\FigCraft.Features.Library.csproj" />
+    <ProjectReference Include="..\..\Content\FigCraft.Features.Content.csproj" />
+    <ProjectReference Include="..\..\Diff\FigCraft.Features.Diff.csproj" />
+    <ProjectReference Include="..\..\Capture\FigCraft.Features.Capture.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

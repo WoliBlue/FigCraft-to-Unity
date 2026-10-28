@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="tokens.uss" />
+    <Style src="themes.uss" />
+    <Style src="styles.uss" />
+    <Style src="screen-login.uss" />
+    <ui:VisualElement name="Screen_Login" class="fc-screen-login">
+        <ui:Label text="Welcome back" name="Title" class="fc-title style-type-heading" />
+        <ui:Label text="Sign in to continue" name="Subtitle" class="fc-subtitle" />
+        <ui:Button name="Button_Primary" class="fc-button-primary style-brand-primary" text="Sign in" />
+        <ui:TextField name="Input_Default" class="fc-input-default" value="you@example.com" />
+        <ui:VisualElement name="Card_Promo_wrap" class="fc-card-promo-wrap">
+            <ui:VisualElement name="Card_Promo_shadow" class="fc-card-promo-shadow theme-dark style-shadow-card" picking-mode="Ignore" />
+            <ui:VisualElement name="Card_Promo" class="fc-card-promo theme-dark">
+                <ui:Label text="Upgrade" name="CardTitle" class="fc-cardtitle" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Grid_Stats" class="fc-grid-stats">
+            <ui:VisualElement name="Stat_A" class="fc-stat-a">
+            </ui:VisualElement>
+            <ui:VisualElement name="Stat_B" class="fc-stat-b">
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Outlined" class="fc-outlined-wrap">
+            <ui:Label text="OUTLINE" name="Outlined_shadow" class="fc-outlined-shadow" picking-mode="Ignore" />
+            <ui:Label text="OUTLINE" name="Outlined_text" class="fc-outlined-text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Icon_Star" class="fc-icon-star" />
+        <ui:VisualElement name="Card_Angular" class="fc-card-angular">
+            <ui:Label text="Angular" name="AngularLabel" class="fc-angularlabel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Divider_Dashed" class="fc-divider-dashed">
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+/* Generated from FigCraft styles (paint / text / effect). */
+
+.style-brand-primary {
+    background-color: #0066FF;
+}
+
+.style-type-heading {
+    font-size: 28px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+}
+

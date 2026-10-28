@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build core + CLI
+        run: dotnet build src/FigCraft.Connector.Cli/FigCraft.Connector.Cli.csproj -c Release
+
+      - name: Core tests (23 cases, goldens 6.3/6.6/6.7)
+        run: dotnet run --project tests/FigCraft.Connector.Tests -c Release
+
+      - name: Build features host (no feature left behind)
+        run: dotnet build features/Host/FigCraft.Features.Host.csproj -c Release
+
+      - name: Features tests
+        run: dotnet run --project features/tests/FigCraft.Features.Tests -c Release

@@ -1,0 +1,40 @@
+{
+  "file": "samples/shop.figcraft",
+  "images": 0,
+  "name": "Untitled",
+  "nodes": 19,
+  "notes": [],
+  "pages": [
+    {
+      "frames": [
+        {
+          "height": 812.0,
+          "id": 5,
+          "name": "Screen/Login",
+          "type": "FRAME",
+          "width": 375.0
+        },
+        {
+          "height": 48.0,
+          "id": 8,
+          "name": "Button/Primary",
+          "type": "COMPONENT",
+          "width": 327.0
+        },
+        {
+          "height": 56.0,
+          "id": 10,
+          "name": "Input/Default",
+          "type": "COMPONENT",
+          "width": 327.0
+        }
+      ],
+      "id": 1,
+      "name": "Page 1",
+      "nodes": 18,
+      "topLevel": 3
+    }
+  ],
+  "styles": 3,
+  "variables": 5
+}

@@ -1,0 +1,26 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+TestResults/
+*.binlog
+artifacts/
+
+# IDEs
+.vs/
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Derived from samples/shop.figcraft (unzip it to inspect the document.json)
+samples/_unpacked/
+
+# Throwaway output of ad-hoc conversions
+scratch/

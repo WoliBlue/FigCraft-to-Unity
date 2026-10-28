@@ -1,0 +1,18 @@
+/* Generated. Theme overrides, applied as classes on any element (custom properties inherit down the tree). */
+
+.theme-light {
+    --color-surface: #FFFFFF;
+    --color-text: #111111;
+    --color-brand: #0066FF;
+    --radius-card: 16px;
+    --space-gutter: 16px;
+}
+
+.theme-dark {
+    --color-surface: #0B0B0F;
+    --color-text: #F5F5F7;
+    --color-brand: #4D8DFF;
+    --radius-card: 24px;
+    --space-gutter: 24px;
+}
+

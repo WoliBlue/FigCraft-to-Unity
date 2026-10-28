@@ -1,0 +1,13 @@
+# Normalise text files to LF in the repository; check out with the platform default.
+* text=auto
+
+# Binaries. `.figcraft` is a ZIP (document.json + images).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.figcraft binary
+*.zip binary
+
+# Generated UI sheets stay diffable as text.
+*.uxml text
+*.uss text

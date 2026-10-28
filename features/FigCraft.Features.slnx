@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Annotate/">
+    <Project Path="Annotate/FigCraft.Features.Annotate.csproj" />
+  </Folder>
+  <Folder Name="/Capture/">
+    <Project Path="Capture/FigCraft.Features.Capture.csproj" />
+  </Folder>
+  <Folder Name="/Content/">
+    <Project Path="Content/FigCraft.Features.Content.csproj" />
+  </Folder>
+  <Folder Name="/Diff/">
+    <Project Path="Diff/FigCraft.Features.Diff.csproj" />
+  </Folder>
+  <Folder Name="/Host/">
+    <Project Path="Host/FigCraft.Features.Host.csproj" />
+  </Folder>
+  <Folder Name="/Library/">
+    <Project Path="Library/FigCraft.Features.Library.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/FigCraft.Features.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FigCraft.Features.Tests/FigCraft.Features.Tests.csproj" />
+  </Folder>
+</Solution>

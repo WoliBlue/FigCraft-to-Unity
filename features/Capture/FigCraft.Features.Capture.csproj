@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>FigCraft.Features.Capture</AssemblyName>
+    <RootNamespace>FigCraft.Features.Capture</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\FigCraft.Features.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Shared with the Unity package, which runs them inside the Editor: one copy of the code. -->
+    <Compile Include="../../unity/com.figcraft-to-unity.tool/Editor/Core/Capture*.cs" Link="Core/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

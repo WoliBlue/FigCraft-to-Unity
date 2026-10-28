@@ -1,0 +1,27 @@
+{
+    "name": "FigCraftToUnity.Editor",
+    "rootNamespace": "FigCraftToUnity.Editor",
+    "references": [
+        "FigCraftToUnity.Core",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "FIGCRAFT_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

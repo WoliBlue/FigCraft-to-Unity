@@ -1,0 +1,27 @@
+{
+  "profile": "production",
+  "fontPadding": 9,
+  "textfieldPlaceholder": "value",
+  "rules": [
+    {
+      "id": "buttons",
+      "priority": 10,
+      "match": { "component": "Button/*" },
+      "control": "Button",
+      "textProperty": "Label"
+    },
+    {
+      "id": "inputs",
+      "priority": 10,
+      "match": { "component": "Input/*" },
+      "control": "TextField",
+      "textProperty": "Placeholder"
+    },
+    {
+      "id": "outlined-titles",
+      "priority": 5,
+      "match": { "name": "*Outline*" },
+      "ussClass": "title-outlined"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+.fc-screen-login {
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    background-color: var(--color-surface);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.fc-title {
+    color: var(--color-text);
+}
+
+.fc-subtitle {
+    margin-top: var(--space-gutter);
+    font-size: 14px;
+    -unity-text-align: upper-left;
+    color: #666666;
+}
+
+.fc-button-primary {
+    width: 327px;
+    height: 48px;
+    margin-top: var(--space-gutter);
+    overflow: hidden;
+    border-radius: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: #FFFFFF;
+}
+
+.fc-input-default {
+    width: 327px;
+    height: 56px;
+    margin-top: var(--space-gutter);
+    overflow: hidden;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    font-size: 16px;
+    color: #888888;
+}
+
+.fc-card-promo {
+    width: 327px;
+    height: 170px;
+    margin-top: var(--space-gutter);
+    overflow: hidden;
+    background-image: url("baked/card-promo-fill.png");
+    -unity-background-scale-mode: scale-and-crop;
+    border-radius: var(--radius-card);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.fc-cardtitle {
+    font-size: 20px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    color: #FFFFFF;
+}
+
+.fc-grid-stats {
+    width: 327px;
+    height: 120px;
+    margin-top: var(--space-gutter);
+    overflow: hidden;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fc-stat-a {
+    width: 103px;
+    height: 120px;
+    background-color: #EEF2FF;
+    border-radius: 8px;
+}
+
+.fc-stat-b {
+    width: 103px;
+    height: 120px;
+    margin-left: 8px;
+    background-color: #EEF2FF;
+    border-radius: 8px;
+}
+
+.fc-outlined-wrap {
+    margin-top: var(--space-gutter);
+    width: 141px;
+    height: 39px;
+    position: relative;
+}
+
+.fc-outlined-shadow {
+    font-size: 32px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    color: rgba(0, 0, 0, 0.4);
+    -unity-text-outline-color: rgba(0, 0, 0, 0.4);
+    -unity-text-outline-width: 6px;
+    position: absolute;
+    left: 2px;
+    top: 4px;
+}
+
+.fc-outlined-text {
+    font-size: 32px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    color: #FFFFFF;
+    -unity-text-outline-color: #111111;
+    -unity-text-outline-width: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.fc-icon-star {
+    width: 20px;
+    height: 19px;
+    margin-top: var(--space-gutter);
+    background-image: url("baked/icon-star.svg");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.fc-card-angular {
+    width: 327px;
+    height: 96px;
+    margin-top: var(--space-gutter);
+    overflow: hidden;
+    background-image: url("baked/card-angular-fill.png");
+    -unity-background-scale-mode: scale-and-crop;
+    border-radius: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+}
+
+.fc-angularlabel {
+    font-size: 16px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    color: #FFFFFF;
+}
+
+.fc-divider-dashed {
+    width: 327px;
+    height: 2px;
+    margin-top: var(--space-gutter);
+    background-image: url("baked/divider-dashed-stroke.svg");
+    -unity-background-scale-mode: scale-to-fit;
+}
+

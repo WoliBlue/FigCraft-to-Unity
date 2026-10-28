@@ -1,0 +1,34 @@
+{
+  "page": "Unity Components",
+  "columns": 3,
+  "gap": 64,
+  "margin": 96,
+  "components": [
+    {
+      "name": "Unity/Button/Primary",
+      "width": 160,
+      "height": 48,
+      "render": "button-primary.png",
+      "annotation": "Unity UI Toolkit - Assets/UI/Components/ButtonPrimary.uxml",
+      "properties": [
+        { "name": "Label", "type": "text", "default": "Sign in" },
+        { "name": "Disabled", "type": "boolean", "default": false }
+      ],
+      "link": {
+        "name": "UXML",
+        "url": "https://example.com/Assets/UI/Components/ButtonPrimary.uxml"
+      }
+    },
+    {
+      "name": "Unity/Toggle/Default",
+      "width": 120,
+      "height": 44,
+      "render": "toggle-default.png",
+      "annotation": "Unity UI Toolkit - Assets/UI/Components/ToggleDefault.uxml",
+      "properties": [
+        { "name": "Label", "type": "text", "default": "Remember me" },
+        { "name": "On", "type": "boolean", "default": true }
+      ]
+    }
+  ]
+}
