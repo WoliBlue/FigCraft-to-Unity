@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.0-preview.1] - Unreleased
+## [0.1.0-preview.1] - 2026-11-26
 
 - Capture uGUI screens in Play Mode into FigCraft (layers, baked images, TextMeshPro text, anchors as constraints).
 - Design Changes window: apply position/size, text, font size, alignment, colour and image edits back to the game.
