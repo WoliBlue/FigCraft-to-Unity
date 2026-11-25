@@ -18,10 +18,10 @@ jobs:
       - name: Build core + CLI
         run: dotnet build src/FigCraft.Connector.Cli/FigCraft.Connector.Cli.csproj -c Release
 
-      - name: Core tests (23 cases, goldens 6.3/6.6/6.7)
+      - name: Core tests (goldens 6.3/6.6/6.7)
         run: dotnet run --project tests/FigCraft.Connector.Tests -c Release
 
-      - name: Build features host (no feature left behind)
+      - name: Build features host
         run: dotnet build features/Host/FigCraft.Features.Host.csproj -c Release
 
       - name: Features tests

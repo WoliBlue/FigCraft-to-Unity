@@ -24,3 +24,30 @@ samples/_unpacked/
 
 # Throwaway output of ad-hoc conversions
 scratch/
+
+# Default output of the convert example in the README
+/Generated/
+
+# Rider / ReSharper user files
+*.DotSettings.user
+
+# Unity, if a test project is ever opened at the root (anchored so features/Library is not ignored)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+*.unitypackage
+
+# Local captures and their reports (default folder is Documents/FigCraftCaptures)
+FigCraftCaptures/
+figcraft-report.md
+
+# Secrets and local agent settings
+.env
+.env.*
+*.pfx
+*.snk
+*.pem
+.claude/settings.local.json
+.codex/

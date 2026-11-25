@@ -495,7 +495,7 @@ namespace FigCraft.Connector.Conversion
 
                 _report.Add(Ref(n), "component", n.MainComponentName ?? n.Name, control,
                     ConversionOutcome.Exact, IssueSeverity.Info, "component.mapped",
-                    $"Figma component resolved to <ui:{control}>" + (text != null ? $" with text \"{text}\"" : "") + ".");
+                    $"FigCraft component resolved to <ui:{control}>" + (text != null ? $" with text \"{text}\"" : "") + ".");
 
                 if (n.Children.Count > 1)
                     _report.Add(Ref(n), "component.children", n.Children.Count.ToString(), "flattened",
