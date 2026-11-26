@@ -1,11 +1,40 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="FigCraft to Unity Tool: capture the game's UI into FigCraft and apply the edits back" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/WoliBlue/FigCraft-to-Unity/releases"><img src="https://img.shields.io/github/v/release/WoliBlue/FigCraft-to-Unity?include_prereleases&label=release&color=7c3aed" alt="Latest release"></a>
+  <a href="https://github.com/WoliBlue/FigCraft-to-Unity/actions/workflows/ci.yml"><img src="https://github.com/WoliBlue/FigCraft-to-Unity/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <img src="https://img.shields.io/badge/Unity-6000.6-222c37?logo=unity" alt="Unity 6000.6">
+  <img src="https://img.shields.io/badge/uGUI-TextMeshPro-2563eb" alt="uGUI + TextMeshPro">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22c55e" alt="MIT licence"></a>
+</p>
+
+<p align="center">
+  <a href="#install">Install</a> ·
+  <a href="#use">Use</a> ·
+  <a href="#command-line">Command line</a> ·
+  <a href="#known-limitations">Known limitations</a> ·
+  <a href="unity/com.figcraft-to-unity.tool/CHANGELOG.md">Changelog</a>
+</p>
+
 # FigCraft to Unity Tool
 
-Unofficial. Not affiliated with FigCraft, Unity Technologies or Figma. The idea comes from Unity's
-*UI Toolkit Connector for Figma design*; this is an independent tool for
-[FigCraft](https://figcraft.app).
+> [!NOTE]
+> Unofficial. Not affiliated with FigCraft, Unity Technologies or Figma. The idea comes from Unity's
+> *UI Toolkit Connector for Figma design*; this is an independent tool for
+> [FigCraft](https://figcraft.app).
 
 A Unity Editor package and two command-line tools that move UI between a running Unity game and
 FigCraft:
+
+```mermaid
+flowchart LR
+    A["Unity game<br/>Play Mode, uGUI"] -- "Capture<br/>Ctrl+Shift+Alt+F" --> B["FigCraft<br/>editable layers"]
+    B -- "Design Changes window<br/>Apply, one by one" --> A
+    B -. "command line" .-> C["UI Toolkit<br/>.uxml + .uss"]
+```
+
 
 - **Game → FigCraft.** In Play Mode, capture the screen. Every visible uGUI element becomes a
   FigCraft layer (frames, images, real text) that remembers the GameObject it came from.
@@ -44,7 +73,7 @@ The package needs no .NET SDK and no separate executable. Its only extra depende
    **Install package from git URL…**
 2. Paste:
    ```
-   https://github.com/WoliBlue/figcraft-to-unity.git?path=/unity/com.figcraft-to-unity.tool
+   https://github.com/WoliBlue/FigCraft-to-Unity.git?path=/unity/com.figcraft-to-unity.tool
    ```
    To pin this version, add `#v0.1.0-preview.1` at the end.
 3. Run **Tools › FigCraft › Set Up Automatic Import…** and pick the FigCraft document that will
